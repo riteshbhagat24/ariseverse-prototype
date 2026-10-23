@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARISEVERSE Learning Portal</title>
+  <meta name="description" content="ARISEVERSE Academy learning portal — The ARISE Method, ARIA X AI mentor, live classes, market intelligence and placement.">
+  <link rel="stylesheet" href="assets/brand.css">
+  <link rel="stylesheet" href="assets/portal.css">
+</head>
+<body class="portal">
+  <!-- Signed-out screens (login) render here -->
+  <div id="auth" hidden></div>
+
+  <!-- Signed-in shell -->
+  <div id="app" hidden>
+    <aside class="side" id="side" aria-label="Portal navigation"></aside>
+    <div class="side-scrim" data-action="nav-close"></div>
+    <div class="main">
+      <header class="top" id="top"></header>
+      <main class="view" id="view" tabindex="-1"></main>
+      <div class="fstrip" id="fstrip"></div>
+    </div>
+  </div>
+
+  <div class="scrim" id="scrim" data-action="drawer-close"></div>
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-h"><h3 id="drawer-title"></h3><button class="icon-btn" data-action="drawer-close" aria-label="Close"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>
+    <div class="drawer-b" id="drawer-body"></div>
+  </aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="proto-flag">Prototype · sample data</div>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/portal.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Build output (single-file package)
+dist/
+
+# Internal presenter notes for the agency, not part of the site
+PRESENTER-NOTES.md
