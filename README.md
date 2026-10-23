@@ -1,5 +1,9 @@
 # ARISEVERSE — Website & Learning Portal (Prototype)
 
+**Live prototype:** https://riteshbhagat24.github.io/ariseverse-prototype/
+
+- Learning portal: https://riteshbhagat24.github.io/ariseverse-prototype/portal.html
+
 Clickable prototype of the ARISEVERSE public website and its student learning portal, built for client review.
 It is plain HTML, CSS and JavaScript: no build step, no backend, no dependencies.
 
@@ -22,8 +26,7 @@ Then visit http://localhost:8080.
 
 Any static host works. Upload the repository as it is.
 
-- **GitHub Pages:** go to Settings → Pages → Deploy from a branch → `main` / root. `.nojekyll` is included.
-  GitHub Pages needs a public repository unless the account is on a paid plan. See *Ownership* below before making it public.
+- **GitHub Pages:** this repository is already published from `main` / root (`.nojekyll` included). Every push to `main` redeploys within a minute or two.
 - **Netlify / Vercel / Cloudflare Pages:** import the repository with no build command and `/` as the output directory. These can deploy from a private repository.
 
 ## Single-file version
